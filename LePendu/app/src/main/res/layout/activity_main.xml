@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Activities.Home"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/loging1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <Button
+        android:background="@color/design_default_color_primary"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connexion"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="396dp"
+      />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="319dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="245dp"
+       />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="221dp"
+        android:layout_height="55dp"
+        android:textSize="110px"
+        android:textStyle="bold"
+        android:textColor="@color/Dark"
+        android:text="Sign In | Up"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="149dp"
+    />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="145dp"
+        android:layout_height="151dp"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="349dp"
+  />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="106dp"
+        android:layout_height="40dp"
+        android:text="Connect"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+  />
+
+</android.support.constraint.ConstraintLayout>
